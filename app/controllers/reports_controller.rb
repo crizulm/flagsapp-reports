@@ -2,37 +2,28 @@ class ReportsController < ApplicationController
 
   def index; end
 
-  def show
-    flag = Flag.where(auth_token: params[:id]).first
-    return render json: { data: 'Error flag not found' }, status: 400 if flag.nil?
-
-    report = Report.where(flag_id: flag.id).first
-    json_report = get_json(report)
-    render json: { data: json_report }, status: :ok
-  end
-
-  def create_report
+  def create
     @report = Report.new(total_request: 0, true_answer: 0,
-                         false_answer: 0, flag: request.headers['flag-id'])
+                         false_answer: 0, flag: params[:flag_id])
     @report.save
-    render json: { data: "create" }, status: :ok
+    render json: { data: 'create' }, status: :ok
   end
 
-  def update_report
-    report = Report.where(flag: request.headers['flag-id']).first
+  def update
+    report = Report.find_by(flag: params[:token])
     report.total_request = report.total_request + 1
     report.save
-    render json: { data: "update" }, status: :ok
+    render json: { data: 'update' }, status: :ok
   end
 
 
-  def get_json_report
-    report = Report.where(flag: request.headers['flag-id']).first
+  def show_json
+    report = Report.find_by(flag: params[:token])
     json_report = get_json(report)
     render json: { data: json_report }, status: :ok
   end
 
-  def get_report
+  def show
     report = Report.where(flag: request.headers['flag-id']).first
     render json: report, status: :ok
   end
