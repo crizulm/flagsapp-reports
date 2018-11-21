@@ -24,7 +24,7 @@ class ReportsController < ApplicationController
   end
 
   def show
-    report = Report.where(flag: request.headers['flag-id']).first
+    report = Report.find_by(flag: params[:token])
     render json: report, status: :ok
   end
 
