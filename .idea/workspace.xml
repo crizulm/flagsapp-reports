@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad3ca5f9-40d7-4e73-a6ba-47f50a0a1e1d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/reports_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/reports_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/report.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/report.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,25 +27,26 @@
         <counts>
           <entry key="Gemfile" value="2" />
           <entry key="md" value="1" />
-          <entry key="rb" value="1" />
+          <entry key="rb" value="2" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
-          <entry key="Ruby" value="3" />
+          <entry key="Ruby" value="4" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Gemfile" value="2" />
+          <entry key="rb" value="736" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Ruby" value="2" />
+          <entry key="Ruby" value="738" />
         </counts>
       </usages-collector>
     </session>
@@ -84,34 +89,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/report.rb">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/reports_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+            <state relative-caret-position="826">
+              <caret line="80" column="43" selection-start-line="80" selection-start-column="43" selection-end-line="80" selection-end-column="43" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/application_record.rb">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/reports_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
+              <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -125,9 +116,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/models/report.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20181117192433_create_reports.rb" />
+        <option value="$PROJECT_DIR$/app/models/report.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/reports_controller.rb" />
       </list>
     </option>
@@ -148,44 +139,43 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Reportes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Reportes" type="462c0819:PsiDirectoryNode" />
+              <item name="flagsapp-reports" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flagsapp-reports" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Reportes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Reportes" type="462c0819:PsiDirectoryNode" />
+              <item name="flagsapp-reports" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flagsapp-reports" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Reportes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Reportes" type="462c0819:PsiDirectoryNode" />
+              <item name="flagsapp-reports" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flagsapp-reports" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Reportes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Reportes" type="462c0819:PsiDirectoryNode" />
+              <item name="flagsapp-reports" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flagsapp-reports" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Reportes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Reportes" type="462c0819:PsiDirectoryNode" />
+              <item name="flagsapp-reports" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flagsapp-reports" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Reportes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Reportes" type="462c0819:PsiDirectoryNode" />
+              <item name="flagsapp-reports" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flagsapp-reports" type="462c0819:PsiDirectoryNode" />
               <item name="db" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Reportes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Reportes" type="462c0819:PsiDirectoryNode" />
+              <item name="flagsapp-reports" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flagsapp-reports" type="462c0819:PsiDirectoryNode" />
               <item name="db" type="462c0819:PsiDirectoryNode" />
               <item name="migrate" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -194,6 +184,7 @@
         </subPane>
       </pane>
       <pane id="RailsProjectView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -343,13 +334,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14835000" />
+    <option name="totallyTimeSpent" value="16288000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="1131" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2796093" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25772098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -417,22 +408,8 @@
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/report.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/application_record.rb">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20181117192433_create_reports.rb">
       <provider selected="true" editor-type-id="text-editor">
@@ -441,10 +418,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/reports_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/report.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
+          <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/reports_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="826">
+          <caret line="80" column="43" selection-start-line="80" selection-start-column="43" selection-end-line="80" selection-end-column="43" />
         </state>
       </provider>
     </entry>
