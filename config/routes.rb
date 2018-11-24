@@ -2,7 +2,8 @@ Rails.application.routes.draw do
 
   post 'reports', to: 'reports#create', as: 'reports'
   get 'reports/:token', to: 'reports#show', as: 'report'
-  put 'reports/:token', to: 'reports#update'
+  put 'reports/:token/result', to: 'reports#update_result'
+  put 'reports/:token/time', to: 'reports#update_time'
   get 'reports/:token/json', to: 'reports#show_json'
 
 end
