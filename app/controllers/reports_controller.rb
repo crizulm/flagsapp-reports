@@ -2,7 +2,7 @@ class ReportsController < ApplicationController
 
   def create
     @report = Report.new(total_request: 0, true_answer: 0,
-                         false_answer: 0, flag: params[:flag_id])
+                         false_answer: 0, total_time: 0, flag: params[:flag_id])
     @report.save
     if @report.save
       render json: {data: 'Correct create'}, status: :ok
