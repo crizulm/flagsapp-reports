@@ -6,4 +6,6 @@ Rails.application.routes.draw do
   put 'reports/:token/result', to: 'reports#update_result'
   put 'reports/:token/time', to: 'reports#update_time'
 
+  get 'healthcheck', to: 'ok_computer/ok_computer#index'
+
 end
