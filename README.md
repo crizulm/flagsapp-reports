@@ -22,7 +22,7 @@ A continuacion iremos a explicar paso por paso como hacer para poder ejecutar Fl
 Primero que nada debemos configurar las variables de entorno en el archivo que se encuentra en <kbd>config/application.yml</kbd> dentro de la seccion **development** las variables que debemos configurar son las siguientes:
 ```
 development:
-  ROLLBAR_ACCESS_TOKEN: "oneRollbarToken"
+  ROLLBAR_ACCESS_TOKEN: "oneRollbarToken" # Token del servicio Rollbar
 ```
 2-  **Instalando las Gemas utilizadas**
 Lo segundo que debemos hacer es instalar las gemas que utilizamos corriendo el siguiente comando
