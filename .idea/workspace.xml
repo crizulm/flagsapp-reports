@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad3ca5f9-40d7-4e73-a6ba-47f50a0a1e1d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/flagsapp-reports.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flagsapp-reports.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.rubocop_todo.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.rubocop_todo.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/reports_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/reports_controller.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,12 +55,12 @@
     <session id="1479026921">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
-          <entry key="project.open.time.0" value="5" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.5" value="1" />
+          <entry key="project.closed" value="11" />
+          <entry key="project.open.time.0" value="6" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -81,23 +81,23 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Gemfile" value="1" />
-          <entry key="rb" value="550" />
+          <entry key="rb" value="557" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Ruby" value="551" />
+          <entry key="Ruby" value="558" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/reports_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
+            <state>
+              <caret column="47" selection-start-column="47" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -105,8 +105,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="105">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -115,16 +115,7 @@
         <entry file="file://$PROJECT_DIR$/config/initializers/rollbar.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -141,9 +132,9 @@
         <option value="$PROJECT_DIR$/app/models/report.rb" />
         <option value="$PROJECT_DIR$/config/initializers/okcomputer.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/reports_controller.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/application.yml" />
+        <option value="$PROJECT_DIR$/app/controllers/reports_controller.rb" />
       </list>
     </option>
   </component>
@@ -155,38 +146,27 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1130" />
+    <option name="width" value="1570" />
+    <option name="height" value="926" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="RailsProjectView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="flagsapp-reports" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flagsapp-reports" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flagsapp-reports" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flagsapp-reports" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flagsapp-reports" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flagsapp-reports" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="initializers" type="462c0819:PsiDirectoryNode" />
+              <item name="Reportes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Reportes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -335,17 +315,20 @@
       <workItem from="1543104008413" duration="826000" />
       <workItem from="1543187080285" duration="1000" />
       <workItem from="1543236067396" duration="73000" />
+      <workItem from="1543292952098" duration="178000" />
+      <workItem from="1543295798332" duration="388000" />
+      <workItem from="1543296668257" duration="145000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21590000" />
+    <option name="totallyTimeSpent" value="22301000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1130" extended-state="0" />
+    <frame x="0" y="23" width="1570" height="926" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2657082" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29712042" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -358,7 +341,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32786885" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.16926771" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -437,31 +420,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.yml" />
     <entry file="file://$PROJECT_DIR$/app/controllers/reports_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
+        <state>
+          <caret column="47" selection-start-column="47" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/rollbar.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="49" />
         </state>
       </provider>
     </entry>

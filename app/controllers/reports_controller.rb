@@ -1,5 +1,4 @@
 class ReportsController < ApplicationController
-
   def create
     token = params[:token]
     return render json: ['The flag token is NULL'], status: :bad_request if token.nil?
@@ -77,12 +76,11 @@ class ReportsController < ApplicationController
   private
 
   def get_json(report)
-    method_return = {'total' => report.total_request,
-                     'positive' => (report.total_request.positive? ? (report.true_answer * 100) / report.total_request : 0),
-                     'negative' => (report.total_request.positive? ? (report.false_answer * 100) / report.total_request : 0),
-                     'rate' => (report.false_answer.positive? ? report.true_answer / report.false_answer : report.true_answer),
-                     'average_response_time' => (report.total_request.positive? ? report.total_time / report.total_request : 0)}
+    method_return = { 'total' => report.total_request,
+                      'positive' => (report.total_request.positive? ? (report.true_answer * 100) / report.total_request : 0),
+                      'negative' => (report.total_request.positive? ? (report.false_answer * 100) / report.total_request : 0),
+                      'rate' => (report.false_answer.positive? ? report.true_answer / report.false_answer : report.true_answer),
+                      'average_response_time' => (report.total_request.positive? ? report.total_time / report.total_request : 0) }
     method_return
   end
-
 end
