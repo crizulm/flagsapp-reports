@@ -1,4 +1,6 @@
 class ReportsController < ApplicationController
+  before_action :authenticate!, only: [:create, :show, :show_json, :update_result, :update_time]
+
   def create
     token = params[:token]
     return render json: ['The flag token is NULL'], status: :bad_request if token.nil?
